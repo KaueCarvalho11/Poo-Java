@@ -16,6 +16,8 @@ public class Media {
         System.out.print("Informe sua terceira nota: ");
         double n3 = scanner.nextDouble();
 
+        scanner.close();
+
         System.out.println(media(n1, n2, n3));
     }
 
