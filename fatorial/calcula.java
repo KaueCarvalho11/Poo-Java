@@ -11,9 +11,10 @@ public class calcula {
         scanner.close();
 
         int auxiliar = 1;
-        for(int i = 2; i <= n; i++){
+        for(int i = 1; i <= n; i++){
             auxiliar *= i;
+            System.out.println("Fatorial de " + i + " = " + auxiliar);
         }
-        System.out.println("Fatorial de " + n + " = " + auxiliar);   
+           
     }
 }
