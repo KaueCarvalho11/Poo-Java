@@ -11,6 +11,8 @@ public class fatorial {
         double n = scanner.nextDouble();
 
         System.out.print(recursao(n));
+
+        scanner.close();
     }
 
     public static Double recursao(double num){
