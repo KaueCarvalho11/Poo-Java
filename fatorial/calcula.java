@@ -17,4 +17,3 @@ public class calcula {
         System.out.println("Fatorial de " + n + " = " + auxiliar);   
     }
 }
-
