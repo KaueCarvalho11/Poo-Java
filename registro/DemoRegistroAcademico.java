@@ -9,6 +9,12 @@ public class DemoRegistroAcademico{
 
     double mensalidade = michael.calculaMensalidade();
 
-    System.out.println("Mensalidade de Michael = R$" + mensalidade);
+    System.out.println("Mensalidade 1 de Michael = R$" + mensalidade);
+
+    michael.percentualDeCobrança = 0.75;
+
+    mensalidade = michael.calculaMensalidade();
+
+    System.out.println("Nova mensalidade = " + mensalidade);
     }
 }
