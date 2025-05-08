@@ -6,7 +6,6 @@ public class Fibonacci {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;
-        int auxiliar = 0;
 
         System.out.print("Informe um número inteiro maior que 0: ");
         n = scanner.nextInt();
