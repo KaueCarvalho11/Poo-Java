@@ -22,7 +22,6 @@ public class Primo {
         ehPrimo = primo(numero, numero);
 
         System.out.print(numero + " é primo? " + ehPrimo);
-
     }
 
     public static boolean primo(int n1, int n2){
