@@ -1,9 +1,9 @@
 package classe;
 
 public class Data{
-    int dia;
-    int mes;
-    int ano;
+    private int dia;
+    private int mes;
+    private int ano;
 
     public boolean dataEhValida(){
         return ((dia > 0 && dia <= 30) && (mes > 0 && mes <=12) &&(ano >= 0));

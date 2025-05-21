@@ -1,8 +1,7 @@
 package aluno;
 
-public class Aluno {
-    String nome;
-    int matricula;
-    int idade;
-    String curso;
+public class Aluno{
+    private String nome;
+    private String matricula;
+    private int idade;
 }
