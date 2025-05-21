@@ -1,10 +1,10 @@
 package registro;
 
 public class RegistroAcademico{
-    String nome;
-    int matricula;
-    int codigoCurso;
-    double percentualDeCobrança;
+    private String nome;
+    private int matricula;
+    private int codigoCurso;
+    private double percentualDeCobrança;
 
     public void inicializaRegistroAcademico(String n, int mat, int cod, double c){
         nome = n;

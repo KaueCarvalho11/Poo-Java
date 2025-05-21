@@ -1,10 +1,10 @@
 package trian;
 
 public class Triangulo {
-    double lado1;
-    double lado2;
-    double lado3;
-    String descricao;
+    private double lado1;
+    private double lado2;
+    private double lado3;
+    private String descricao;
 
     public void inicializa(double l1, double l2, double l3, String d){
         lado1 = l1;
@@ -15,5 +15,5 @@ public class Triangulo {
 
     public double perimetro(){
         return lado1 + lado2 + lado3;
-    }
+    } 
 }
