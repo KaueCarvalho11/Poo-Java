@@ -1,0 +1,12 @@
+[IV - UFG - 2024 - Prefeitura de Rio Branco - AC - Analista de Sistemas - Especializa-
+ção em Desenvolvimento Front-End] A programação orientada a objetos (POO) mudou
+
+a forma como desenvolvedores criam aplicações, enfatizando a organização do código
+em unidades lógicas. Qual é um dos principais princípios da programação orientada a
+objetos?
+(a) Evitar o uso de classes e objetos.
+(b) Encapsular de dados e funções em objetos.
+(c) Concentrar código em procedimentos únicos.
+(d) Ignorar a herança e a reutilização de código.
+
+Resposta = B
