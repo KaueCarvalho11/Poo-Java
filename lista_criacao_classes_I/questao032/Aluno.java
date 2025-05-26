@@ -20,15 +20,17 @@ public class Aluno{
     }
 
     public double provaFinal(){
-        if(media()<3|| media()>=7){
+        double mp = media();
+        if(mp < 3|| mp >= 7){
             return 0;
         }
-        else return (50 - 6 * media())/4;
+        else return (50 - 6 * mp)/4;
     }
 
     public double mediaFinal(){
-        if (media()>= 7 || media() < 3){
-            return media();
-        } else return (media() * 6 + (50 - 6 * media())/4)/10;  
+        double mp = media();
+        if (mp >= 7 || mp < 3){
+            return mp;
+        } else return (mp * 6 + (50 - 6 * mp)/4)/10;  
     }
 }
