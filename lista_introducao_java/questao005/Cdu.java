@@ -13,7 +13,8 @@ public class Cdu {
         int centena = numero / 100;
         int dezena = (numero % 100) / 10;
         int unidade = (numero % 100) % 10;
+        int udc = (unidade * 100) + (dezena * 10) + centena;
 
-        System.out.print("UDC = " + unidade + dezena + centena);
+        System.out.print(udc);
     }
 }

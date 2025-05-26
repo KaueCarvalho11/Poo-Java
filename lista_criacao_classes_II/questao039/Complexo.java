@@ -11,12 +11,9 @@ public class Complexo{
 
     public Complexo(double real){
         this.real = real;
-        imaginaria = 0;
     }
 
     public Complexo(){
-        real = 0;
-        imaginaria = 0;
     }
 
     public String toString(){
