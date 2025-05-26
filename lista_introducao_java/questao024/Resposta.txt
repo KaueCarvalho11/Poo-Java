@@ -15,4 +15,4 @@ Ao executar este trecho de código qual o resultado mostrado na tela?
 (D) 3
 (E) error in line 5: invalid operation
 
-Resposta = D
+Resposta = E
