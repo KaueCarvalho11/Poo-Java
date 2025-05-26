@@ -29,10 +29,6 @@
                 contador+=2;
             }  
             
-            else if(atributo2.equals(atributo3)){
-                contador+=2;
-            }
-
             return contador;
         }
     }
