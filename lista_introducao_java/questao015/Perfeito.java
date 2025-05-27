@@ -7,7 +7,6 @@ public class Perfeito {
         int contador = 0;
 
         do{
-            divisor = 0;
             for(int i = 1; i < numero; i++){
 
             if(numero % i == 0){
@@ -19,6 +18,7 @@ public class Perfeito {
                 contador++;
             }
             numero ++;
+            divisor = 0;
 
         }while (contador!=4);
     }
