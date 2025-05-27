@@ -11,7 +11,9 @@ public class Fibonacci {
         n = scanner.nextInt();
         scanner.close();
 
-        System.out.print(fibonacci(n));
+        for(int i = 0; i <=n; i++){
+        System.out.print(fibonacci(i) + "\n");    
+        }
     }
 
     public static int fibonacci(int numero) {
