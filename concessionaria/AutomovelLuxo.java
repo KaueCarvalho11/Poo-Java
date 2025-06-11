@@ -12,8 +12,8 @@ public class AutomovelLuxo extends AutomovelBasico{
 
     public double quantoCusta(){
         double custo = super.quantoCusta();
-        if(arCondicionado == true) custo += 1000;
-        if(direcaoHidraulica == true) custo += 500;
+        if(arCondicionado) custo += 1000;
+        if(direcaoHidraulica) custo += 500;
         return custo;
     }
 

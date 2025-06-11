@@ -12,8 +12,8 @@ public class AutomovelBasico extends Automovel {
 
     public double quantoCusta(){
         double custo = super.quantoCusta();
-        if(airbag == true) custo += 15000;
-        if(radio == true) custo+= 5000;
+        if(airbag) custo += 15000;
+        if(radio) custo+= 5000;
         return custo;
     }
 
