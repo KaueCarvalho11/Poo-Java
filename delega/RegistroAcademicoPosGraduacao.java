@@ -20,6 +20,6 @@ public class RegistroAcademicoPosGraduacao {
     }
 
     public String toString(){
-        return academico.toString() + " " + "tese = " + tituloTese + " orientador = " + orientador + "\n";
+        return academico + " " + "tese = " + tituloTese + " orientador = " + orientador + "\n";
     }
 }
