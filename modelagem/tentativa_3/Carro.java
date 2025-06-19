@@ -10,7 +10,7 @@ public class Carro extends Terrestre{
 
     @Override
     public void moverFrente(){
-        System.out.println("Carro está se movendo para frente");
+        System.out.println(" Carro está se movendo para frente");
     }
 
     @Override

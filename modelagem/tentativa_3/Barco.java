@@ -10,7 +10,7 @@ public class Barco extends Aquatico{
 
     @Override
     public void moverFrente(){
-        System.out.println("Barco movendo para frente");
+        System.out.println(" Barco movendo para frente");
     }
 
     public String toString(){

@@ -10,7 +10,7 @@ public class Aviao extends Aereo{
 
     @Override
     public void moverFrente(){
-        System.out.println("Avião está se movendo para frente");
+        System.out.println(" Avião está se movendo para frente");
     }
 
     @Override
