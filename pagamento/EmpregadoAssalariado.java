@@ -8,6 +8,7 @@ public class EmpregadoAssalariado extends Empregado{
         this.salario = salario;
     }
 
+    @Override
     public double valorPagamento(){
         return salario;
     }
