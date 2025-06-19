@@ -6,6 +6,7 @@ public class DemoControle{
         Aviao boing = new Aviao(40, 12, 10);
         Barco canoa = new Barco(3, 400, 5);
         Carro Astra = new Carro(4, 4, "Mery Jane");
+        Carro vazio = new Carro();
 
         System.out.print(boing);
         universal.moverFrente(boing);
@@ -15,5 +16,7 @@ public class DemoControle{
 
         System.out.print(Astra);
         universal.moverFrente(Astra);
+        
+        System.out.print(vazio);
     }
 }

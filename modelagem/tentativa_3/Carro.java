@@ -8,6 +8,10 @@ public class Carro extends Terrestre{
         this.placa = placa;
     }
 
+    public Carro(){
+        super(1, 2);
+    }
+
     @Override
     public void moverFrente(){
         System.out.println(" Carro está se movendo para frente");
