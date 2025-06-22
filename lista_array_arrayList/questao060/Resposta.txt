@@ -1,0 +1,22 @@
+[IFRN - 2009 - Professor - Sistemas de Informação] Analise o seguinte código Java,
+abaixo:
+1 public class test {
+2 public static void main(String[] SSn10) {
+3 int a[] = {1,2,3,4,5};
+4 int b[] = {1,2,3,4,5,6,7,8,9,10};
+5 final int tam=a.length;
+6 for(int f=0;f<tam;f++)
+7 a[f] = a[f]*f;
+8 tam=b.length;
+9 for(int f=0; f<tam;f++)
+10 b[f]+=a[f/2]%(f+1);
+11 }
+12 }
+Assinale a alternativa que contém o número da linha do código acima que promove um
+erro de compilação.
+(A) 2
+(B) 7
+(C) 8
+(D) 10
+
+R = C
