@@ -1,0 +1,3 @@
+71. Explique por que não podemos ter construtores declarados com a palavra-chave abstract.
+
+R = Porque métodos construtores não devem ser implementados em outras classes, isto é, não podem ser sobrescritos. O corpo do método construtor deve estar na própria classe onde o método é declarado, de forma a garantir a construção do objeto e a inicialização dos atributos específicos daquela classe.
