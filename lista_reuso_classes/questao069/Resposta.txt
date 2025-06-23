@@ -1,0 +1,48 @@
+[FGV - 2024 - CGM de Belo Horizonte - MG - Auditor Interno - Ciência da Computação -
+Manhã] Com relação à programação orientada a objetos usando Java, avalie o código a
+seguir.
+public class Veiculo {
+private String marca;
+private String modelo;
+public Veiculo(String marca, String modelo) {
+this.marca = marca;
+this.modelo = modelo;
+}
+public String getMarca() {
+return marca;
+}
+public String getModelo() {
+return modelo;
+}
+}
+public class Mobi extends Veiculo {
+private int portas;
+
+23
+
+public Mobi(String marca, String modelo, int portas) {
+super(marca, modelo);
+this.portas = portas;
+}
+public int getPortas() {
+return portas;
+}
+}
+Em relação ao código, analise as afirmativas a seguir e assinale (V) para a verdadeira e
+(F) para a falsa.
+
+( ) A classe Mobi é um exemplo de herança, um dos fundamentos da programação orien-
+tada a objetos.
+
+( ) A classe Veiculo não pode ser instanciada porque é uma classe abstrata.
+
+( ) O método getPortas() é um exemplo de encapsulamento, outro fundamento da progra-
+mação orientada a objetos.
+
+As afirmativas são, respectivamente,
+(A) V – V – F.
+(B) V – F – V.
+(C) F – V – V.
+(D) F – F – V.
+
+R =  B

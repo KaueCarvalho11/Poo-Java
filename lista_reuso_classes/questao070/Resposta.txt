@@ -1,0 +1,13 @@
+[ IV - UFG - 2024 - Prefeitura de Rio Branco - AC - Analista de Sistemas - Especialização
+
+em Desenvolvimento Front-End] Desenvolver aplicações eficientes requer reutilizar e es-
+tender o comportamento de classes existentes. No contexto da programação orientada
+
+a objetos, qual conceito permite que uma classe adquira as propriedades e métodos de
+outra classe?
+(A) Encapsulamento.
+(B) Abstração.
+(C) Composição.
+(D) Herança.
+
+R = D

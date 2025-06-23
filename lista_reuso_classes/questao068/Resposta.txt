@@ -1,0 +1,16 @@
+[CESGRANRIO - 2024 - Banco da Amazônia - Técnico Científico - Tecnologia da Infor-
+mação] No contexto de orientação a objeto, para as classes P, Q, R, S, T, U, sendo Q
+
+uma classe declarada como abstrata, considere a hierarquia de classes a seguir:
+
+• U e R herdam diretamente de S
+• S e T herdam diretamente de Q
+• P herda de T
+Nesse contexto, é possível criar uma instância de
+(A) P e associar a uma variável da classe S
+(B) Q e associar a uma variável da classe Q
+(C) Q e associar a uma variável da classe P
+(D) S e associar a uma variável da classe U
+(E) U e associar a uma variável da classe Q
+
+R = E

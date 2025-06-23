@@ -1,0 +1,19 @@
+[FGV - 2024 - INPE - Tecnologista Júnior I - Desenvolvimento de Software para Opera-
+ção de Satélites] (Adaptada) Uma linguagem de programação Orientada a Objetos deve
+
+prover suporte aos principais fundamentos do desenvolvimento Orientação a Objetos.
+Entretanto, cada linguagem apresenta as suas especificidades e formas de implementar
+esses fundamentos.
+Sobre a Linguagem Java, analise as afirmativas a seguir.
+I A palavra-chave this em Java é uma referência ao próprio objeto da classe e pode
+ser usada para acessar atributos e métodos da instância atual.
+II Quando uma classe ClasseB estende ClasseA com extends, significa que ClasseB
+pode acessar membros privados e protegidos de ClasseA.
+III A linguagem Java permite herança múltipla de classes.
+(A) I, II e III.
+(B) II e III, apenas.
+(C) I e III, apenas.
+(D) I e II, apenas.
+(E) I, apenas.
+
+R = E

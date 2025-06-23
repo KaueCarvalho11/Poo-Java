@@ -1,0 +1,16 @@
+[FAB - EEAR - 2023 - Sargento da Aeronáutica - Informática] Herança é um dos conceitos
+fundamentais da Programação Orientada a Objetos. Analise as afirmativas abaixo sobre
+esse importante pilar da POO.
+I- As classes inferiores da hierarquia não herdam automaticamente todas as propriedades
+e os métodos das classes superiores.
+II- A herança permite basear uma nova classe na definição de uma classe previamente
+existente.
+III- A classe filha é conhecida como superclasse e a classe progenitora como subclasse.
+IV- A herança permite o agrupamento de classes relacionadas.
+Está correto o que se afirma em
+(A) I e II
+(B) II e IV
+(C) I e IV
+(D) II e III
+
+R = B
