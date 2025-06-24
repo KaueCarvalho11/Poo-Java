@@ -1,0 +1,14 @@
+[FCC - 2023 - Copergás - PE - Analista / Suporte de Informática] A sobrecarga de méto-
+dos ocorre quando
+
+(A) um método de mesmo nome existe em classes diferentes em uma relação de he-
+rança.
+
+(B) há mais de um método com mesmo nome, recebendo parâmetros de tipos ou em
+quantidades diferentes, em uma classe.
+(C) um método recebe mais parâmetros do que pode suportar.
+(D) o mesmo método aparece na maioria das classes da aplicação.
+(E) um método recebe como parâmetro um valor que extrapola a capacidade do tipo
+usado para o recebimento.
+
+R = B

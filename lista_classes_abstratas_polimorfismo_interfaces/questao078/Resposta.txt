@@ -1,0 +1,133 @@
+[PETROBRAS - 2012 - Analista de Sistemas Júnior - Engenharia de Software] Suponha
+que as classes Circulo, Desenho e Figura ocupem arquivos separados. Em qual código
+Java elas serão compiladas sem erros?
+(A)
+package P1;
+import P2.*;
+public class Figura {
+protected double x,y;
+protected final double PI=0;
+Desenho d;
+abstract protected double dist(double x1,double y1);
+}
+package P1;
+public class Circulo extends Figura {
+double r;
+public Circulo() {
+d.add(this);
+PI=3.14159;
+}
+public double raio() { return r; }
+public double centroX() { return x; }
+
+27
+
+public double centroY() { return y; }
+protected double dist(double x1,double y1) {
+return Math.sqrt((x1-x)*(x1-x)+(y1-y)*(y1-y));
+}
+}
+package P2;
+import java.util.List;
+import P1.Figura;
+public class Desenho {
+List<Figura> f;
+public void add(Figura p) { f.add(p); }
+}
+(B)
+
+package P1;
+import P2.*;
+abstract public class Figura {
+protected double x,y;
+protected final double PI=0;
+Desenho d;
+abstract protected double dist(double x1,double y1);
+}
+package P1;
+public class Circulo extends Figura {
+double r;
+public Circulo() {
+d.add(this);
+PI=3.14159;
+}
+public double raio() { return r; }
+public double centroX() { return x; }
+public double centroY() { return y; }
+private double dist(double x1,double y1) {
+return Math.sqrt((x1-x)*(x1-x)+(y1-y)*(y1-y));
+}
+}
+package P2;
+import java.util.List;
+import P1.Figura;
+public class Desenho {
+List<Figura> f;
+public void add(Figura p) { f.add(p); }
+}
+(C)
+
+28
+
+package P1;
+import P2.*;
+abstract public class Figura {
+double x,y;
+final double PI=3.14159;
+Desenho d;
+abstract protected double dist(double x1,double y1);
+}
+package P1;
+public class Circulo extends Figura {
+double r;
+public Circulo() { d.add(this); }
+public double raio() { return r; }
+public double centroX() { return x; }
+public double centroY() { return y; }
+public double dist(double x1,double y1) {
+return Math.sqrt((x1-x)*(x1-x)+(y1-y)*(y1-y));
+}
+}
+package P2;
+import java.util.List;
+import P1.Figura;
+public class Desenho {
+List<Figura> f;
+public void add(Figura p) { f.add(p); }
+}
+(D)
+package P1;
+import P2.*;
+public class Circ implements ICirculo {
+double cx, cy, r;
+public double raio() { return r; }
+public double centroX() { return cx; }
+}
+package P2;
+public interface ICirculo {
+double PI;
+double raio();
+double centroX();
+double centroY();
+}
+
+29
+
+(E)
+package P1;
+import P2.*;
+public class Circ extends ICirculo {
+double cx, cy, r;
+public double raio() { return r; }
+public double centroX() { return cx; }
+public double centroY() { return cy; }
+}
+package P2;
+public interface ICirculo {
+double PI=3.14159;
+double raio();
+double centroX();
+double centroY();
+} 
+
+R = C
