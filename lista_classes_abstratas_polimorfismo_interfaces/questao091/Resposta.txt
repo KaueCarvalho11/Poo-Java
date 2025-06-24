@@ -1,0 +1,28 @@
+ [IFRN - 2009 - Professor - Sistemas de Informação] O código, abaixo, apresenta a imple-
+mentação de uma classe na linguagem de programação Java. Com base nessa classe,
+marque a alternativa verdadeira.
+public final class Password {
+private String senha;
+public String getSenha() {
+return senha;
+}
+public void setSenha(String senha) {
+this.senha = senha;
+}
+}
+(A) Esta classe não poderá ser estendida por outras classes, porém seus métodos po-
+derão ser sobrescritos.
+(B) Esta classe não poderá ser estendida por outras classes.
+(C) Esta classe poderá ser estendida por outra classe.
+(D) Esta classe poderá ser estendida por outra classe, porém seus métodos não pode-
+rão ser sobrescritos.
+92. [FGV - 2024 - Prefeitura de Caraguatatuba - SP - Técnico em Processamento de Dados]
+(adaptada) Em um jogo de estratégia online, você tem diferentes classes de personagens,
+como “Guerreiro” e “Mago”, que herdam de uma classe base chamada “Personagem”. A
+classe base possui um método chamado “ExecutarHabilidade”, que funciona de maneira
+diferente quando chamado por um personagem guerreiro em comparação com um per-
+sonagem mago.
+Considerando princípios de programação orientada a objetos, assinale a abordagem mais
+adequada para implementar essa diferenciação.
+
+R =  A

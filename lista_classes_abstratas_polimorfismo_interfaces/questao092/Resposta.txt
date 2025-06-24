@@ -1,0 +1,21 @@
+[FGV - 2024 - Prefeitura de Caraguatatuba - SP - Técnico em Processamento de Dados]
+(adaptada) Em um jogo de estratégia online, você tem diferentes classes de personagens,
+como “Guerreiro” e “Mago”, que herdam de uma classe base chamada “Personagem”. A
+classe base possui um método chamado “ExecutarHabilidade”, que funciona de maneira
+diferente quando chamado por um personagem guerreiro em comparação com um per-
+sonagem mago.
+Considerando princípios de programação orientada a objetos, assinale a abordagem mais
+adequada para implementar essa diferenciação.
+38
+(A) Utilizar variáveis de controle condicional dentro do método “ExecutarHabilidade”
+para verificar explicitamente o tipo da instância e ajustar o comportamento.
+(B) Cria versões específicas do método “ExecutarHabilidade” para “Guerreiro” e “Mago”
+com implementações distintas.
+(C) Marcar o método “ExecutarHabilidade” como abstrata na classe base “Personagem”
+e fornecendo implementações específicas nas classes derivadas.
+(D) Permitir que “Guerreiro” e “Mago” herdem métodos específicos de diferentes classes
+e personalizem o comportamento de “ExecutarHabilidade”.
+(E) Ocultar a implementação do método “ExecutarHabilidade” na classe base “Persona-
+gem” e redefinindo-o nas classes derivadas para comportamentos específicos.
+
+R = C
