@@ -1,0 +1,3 @@
+ [Instituto Access - UFFS - 2023 - Técnico de Tecnologia da Informação] No que diz res-peito à orientação a objetos,  um princípio é definido como aquele em que as classesderivadas de uma única classe base são capazes de invocar os métodos que, emboraapresentem a mesma assinatura,  comportam-se de maneira diferente para cada umadas classes derivadas.  É um mecanismo por meio do qual selecionam-se as funcionali-dades utilizadas de forma dinâmica por um programa no decorrer de sua execução. Esseprincípio é conhecido por(A)  encapsulamento.(B)  polimorfismo.(C)  acoplamento.(D)  herança.(E)  coesão
+
+ R = B

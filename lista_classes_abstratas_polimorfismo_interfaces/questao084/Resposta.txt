@@ -1,0 +1,3 @@
+FAB - EEAR - 2023 - Sargento da Aeronáutica - Informática] Assinale a alternativa quecompleta a lacuna do texto abaixo.A POO oferece um tipo especial de classe que não pode ser instanciada.  Trata-se daclasse _____(A)  empacotada(B)  concreta(C)  abstrata(D)  oculta
+
+R = C

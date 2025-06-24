@@ -1,0 +1,3 @@
+ [UFC - 2013 - Analista de Tecnologia da Informação / Engenharia de Software] Na progra-mação orientada a objetos, a possibilidade de haver mais de um método com o mesmonome na mesma classe denomina-se:(a)  Herança.(b)  Sobrescrita.(c)  Sobrecarga.(d)  Ligação tardia.(e)  Encapsulamento.
+
+ R = c
