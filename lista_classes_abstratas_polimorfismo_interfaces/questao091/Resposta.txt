@@ -17,4 +17,4 @@ derão ser sobrescritos.
 (D) Esta classe poderá ser estendida por outra classe, porém seus métodos não pode-
 rão ser sobrescritos.
 
-R =  A
+R =  B
