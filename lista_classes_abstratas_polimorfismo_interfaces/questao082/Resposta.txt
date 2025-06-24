@@ -1,0 +1,3 @@
+ [FAB - CIAAR - 2023 - Oficial de Apoio da Aeronáutica - Análise de Sistemas] Existe umagama de definições sobre a orientação a objetos.  No sentido da relação das classes edos acessos aos métodos, preencha as lacunas abaixo.Muitas classes podem ter acesso _____, porém, _____ esse método _____. A sequênciade palavras que preenche corretamente as lacunas é:(A)  a um mesmo método / cada classe executa / de maneira diferente(B)  a um mesmo método / outras classes executam / da mesma maneira(C)  somente a um método / outras classes executam / de maneira diferente(D)  somente a um método / cada classe executa / da mesma maneira
+
+ R = A
