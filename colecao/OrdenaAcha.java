@@ -3,7 +3,7 @@ import java.util.Collections;
 
 public class OrdenaAcha{
     public static void main(String[]args){
-        ArrayList<String> cores = new ArrayList();
+        ArrayList<String> cores = new ArrayList<>();
 
         cores.add("verde");
         cores.add("lilás");
