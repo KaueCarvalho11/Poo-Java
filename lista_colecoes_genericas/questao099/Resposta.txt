@@ -1,0 +1,12 @@
+[FADE UFPE - 2023 - UFPE - Analista de Tecnologia da Informação - Área: Sistemas]
+Suponha que, em Java, utilizamos a classe LinkedList para implementar uma estrutura de
+dados dinâmica. Vamos considerar duas possibilidades para inserção e remoção: i. usar
+apenas os métodos addFirst() e removeFirst(); ou ii. usar apenas os métodos addLast()
+e removeLast(). Podemos, então, afirmar que,
+(A) no primeiro caso, trata-se de uma pilha e, no segundo, de uma fila.
+(B) no primeiro caso, trata-se de uma fila e, no segundo, de uma pilha.
+(C) no primeiro caso, trata-se de uma lista encadeada e, no segundo, de uma fila.
+(D) em ambos os casos, trata-se de uma fila.
+(E) em ambos os casos, trata-se de uma pilha.
+
+R = E

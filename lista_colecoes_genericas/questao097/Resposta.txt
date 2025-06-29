@@ -1,0 +1,46 @@
+[2023 - CS-UFG - if-goiano - Técnico de Tecnologia da Informação] Em um programa ori-
+entado a objetos foi implementada uma superclasse chamada Pessoa e duas subclasses
+
+de Pessoa chamadas TecnicoDeTI e TecnicoDeLab. Considerando que listaDePessoas
+
+se refere à lista de objetos do tipo Pessoa, qual dos seguintes trechos de código escri-
+tos em linguagem Java calcula e armazena corretamente, na variável q, a quantidade de
+
+objetos do tipo TecnicoDeTI?
+(A)
+
+int q = 0;
+Iterator i = listaDePessoas.iterator();
+TecnicoDeTI t;
+while (i.hasNext()) {
+t = (Pessoa) i.next();
+if (t instanceof i)
+q++; }
+
+(B)
+
+int q = 0;
+Iterator i = listaDePessoas.iterator();
+TecnicoDeTI t;
+while (i.hasNext()) {
+t = (Pessoa) i.next();
+if (t instanceof TecnicoDeTI)
+q++; }
+
+(C)
+
+int q = 0;
+Iterator i = listaDePessoas.iterator();
+TecnicoDeTI t;
+while (i.hasNext())
+if (i instanceof TecnicoDeTI) q++;
+
+(D)
+
+int q = 0;
+Iterator i = listaDePessoas.iterator();
+TecnicoDeTI t;
+while (i.hasNext())
+if (i instanceof t) q++;
+
+R = B

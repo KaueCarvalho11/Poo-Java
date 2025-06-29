@@ -1,0 +1,26 @@
+[FGV - 2024 - DATAPREV - ATI - Arquitetura, Engenharia e Sustentação Tecnológica]
+Considere o seguinte trecho de código:
+List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);
+Iterator<Integer> iterador = numeros.iterator();
+while (iterador.hasNext()) {
+for(int i = 0; i < numeros.size(); i++) {
+if(i%2==0) {
+iterador.remove(i);
+}
+}
+}
+Esse código tem por objetivo remover as posições pares de uma lista "números".
+Assinale a opção que identifica os problemas com esse código.
+(A) A remoção de elementos dentro de um laço for deve ser feita usando os métodos
+next() e remove() do iterador.
+(B) O laço for está mal posicionado, e deveria ser usado antes do laço while para iterar
+corretamente.
+(C) O método remove nunca pode ser chamado durante a iteração com um iterador, pois
+isso sempre resulta em uma exceção.
+
+(D) A variável i utilizada no laço for está causando um erro de indexação ao tentar aces-
+sar elementos que já foram removidos.
+
+(E) O laço while deve ser substituído por um laço for para evitar conflitos com o iterador.
+
+R = A
