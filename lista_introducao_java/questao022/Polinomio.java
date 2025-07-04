@@ -2,11 +2,8 @@ package lista_introducao_java.questao022;
 
 import java.util.Scanner;
 
-import java.text.DecimalFormat;
-
 public class Polinomio{
     public static void main(String[]args){
-        DecimalFormat df = new DecimalFormat("#.00");
         Scanner input = new Scanner(System.in);
         int n;
         double x;

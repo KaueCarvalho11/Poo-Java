@@ -1,23 +1,36 @@
 package divisao;
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class Calcula{
-    public static double divide(double numerador, double denominador){
+    public static double divide(int numerador, int denominador){
         return numerador/denominador;
     }
     
     public static void main(String[]args){
-        double n1, n2;
+        int n1, n2 = 0;
         Scanner input = new Scanner(System.in);
 
+
         System.out.println("Informe o valor do numerador: ");
-        n1 = input.nextDouble();
+        n1 = input.nextInt();
 
         System.out.println("Informe o valor do denominador: ");
-        n2 = input.nextDouble();
+        try{ 
+            n2 = input.nextInt();
+        }catch(InputMismatchException m){
+            System.out.println(m.getMessage());
+            System.out.println("Erro, número informado por extenso");
+            return;
+        }
 
-        System.out.println(divide(n1, n2));
-
-        input.close();
+        try{
+            System.out.println(divide(n1, n2));
+        }catch(ArithmeticException a){
+            System.out.println(a.getMessage());
+            System.out.println("Erro, denominador não pode ser 0");
+        } finally{
+            input.close();
+        }   
     }
 }
