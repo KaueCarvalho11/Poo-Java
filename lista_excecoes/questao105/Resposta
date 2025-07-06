@@ -12,4 +12,4 @@ mente de ocorrer ou não uma exceção.
 (C) Um bloco que só é executado se uma exceção for lançada.
 (D) Um bloco utilizado para interromper o fluxo do programa imediatamente ao encontrar
 uma exceção.
-(E) Um bloco exclusivo para imprimir mensagens de erro no console.3
+(E) Um bloco exclusivo para imprimir mensagens de erro no console.
